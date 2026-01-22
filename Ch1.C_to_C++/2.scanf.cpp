@@ -3,13 +3,13 @@
 int main(void)
 {
   int val1, val2;
-  cout<< "첫 번째 숫자 입력:";
-  cin>>val1; // 데이터 입력 : cin >> 입력변수
+  std::cout<< "첫 번째 숫자 입력:";
+  std::cin>>val1; // 데이터 입력 : cin >> 입력변수
 
-  cout<< "두 번째 숫자 입력:";
-  cin>>val2;
+  std::cout<< "두 번째 숫자 입력:";
+  std::cin>>val2;
 
   int result=val1+val2;
-  cout<<"덧셈 결과 :"<<result<<endl;
+  std::cout<<"덧셈 결과 :"<<result<<std::endl;
   return 0;
 }
