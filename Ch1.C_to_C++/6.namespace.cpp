@@ -20,6 +20,7 @@ int main(void)
 
 #include <iostream>
 
+//이름 공간이 다르면 같은 이름의 변수나 함수의 선언이 허용됨
 namespace A_COM
 {
   void function(void)
